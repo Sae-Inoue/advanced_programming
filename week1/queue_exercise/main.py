@@ -23,16 +23,12 @@ class Reverser:
 
 
 if __name__ == "__main__":
-
     while True:
-
         sentence = input("Enter a string: ")
-
         if sentence == "":
             break
 
         reverser = Reverser(sentence)
-
         print(reverser.reverse())
 
 
