@@ -23,6 +23,17 @@ class Queue:
         self.__tail -= 1
         return self.__data[self.__tail]
 
+    def peek(self):
+        """Look at the top-most object on the stack.
+
+        If the stack is empty, raise an exception.
+
+        :raise IndexError if the stack is empty
+        """
+        if self.is_empty():
+            raise IndexError("Stack empty!")
+
+        return self.__data[self.tail]
 
 
     def is_empty(self):
