@@ -1,5 +1,11 @@
 # bubble_sort.py
 def bubble_sort(lt):
+    '''
+    This is a bubble sort which starts from the left hand side, compares the value with the  next adjacent element.
+    If the value is higher than the adjacent, then swap. Otherwise stay.
+    :param lt:
+    :return:
+    '''
     n = len(lt)
     for i in range(n):
         for j in range(0, n - i - 1):
