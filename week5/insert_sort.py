@@ -1,4 +1,4 @@
-# bubble_sort.py
+# insertion_sort.py
 def insertion_sort(lt):
     n = len(lt)
     a = 0
