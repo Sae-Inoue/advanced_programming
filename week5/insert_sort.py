@@ -1,7 +1,6 @@
 # insertion_sort.py
 def insertion_sort(lt):
     n = len(lt)
-    a = 0
     for i in range(n):
         sort_list = lt[i]
         j = i-1
